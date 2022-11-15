@@ -302,9 +302,8 @@ next5.addEventListener('click', visible5)
 const res6 = document.getElementById('res6')
 // const retornar1 = document.getElementById('retornar')
 
-// function visible6(){
-//     container.style.display = 'none'
-//     com.style.display = 'flex'
-// }
+const btn = document.getElementById('retornar')
 
-// retornar1.addEventListener('click', visible6)
+btn.addEventListener('click', () => {
+    location.reload()
+})

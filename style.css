@@ -1,0 +1,143 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-image: linear-gradient(90deg, rgb(0, 0, 253, 0.3), rgb(0, 98, 190, 0.3), rgb(124, 1, 124, 0.3), rgb(153, 0, 153, 0.3));
+}
+header{
+    justify-content: center;
+    width: 100%;
+    display:flex;
+    font-style:oblique;
+    font-size:35px;
+    background-image: linear-gradient(45deg, blue, rgb(0, 98, 190), purple, rgb(153, 0, 153));
+    text-align: center;
+    padding:5px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+nav{
+    display:flex;
+    justify-content: center;
+}
+nav #start{
+    display:flex;
+    font-size:65px;
+    background-image: linear-gradient(45deg, red, darkred);
+    padding:18px;
+    border-radius:15px;
+    padding-left: 45px;
+    padding-right: 45px;
+    margin-top:15%;
+    cursor:pointer;
+}
+nav #start:hover{
+    padding:22px;
+    padding-left:50px;
+    padding-right:50px;
+}
+@keyframes reload{
+    0% {background-color: rgba(127, 255, 212, 0)}
+    50% {background-color: rgba(0, 0, 0, 0.055)}
+    100% {background-color: rgba(0, 0, 0, 0.199)}
+}
+.container{
+    width: 35vw;
+    height: 70vh;
+    display:none;
+    animation: reload linear 1.8s 0s 1 normal forwards;
+    margin-top:5%;
+    border-radius:35px;
+    justify-content: center;
+    
+}
+#pontos{
+    font-size:50px;
+    display:none;
+    margin-left:50%;
+    
+}
+@keyframes colorwhite{
+    from {color: lightgrey}
+    to {color: black}
+}
+.res1{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.am1{
+    margin-bottom: 15px;
+    font-size:60px;
+    animation: colorwhite linear 1.8s 0s 1 normal forwards;
+}
+@keyframes colorblack{
+    0% {color:lightgrey; background-image: linear-gradient(45deg, rgba(173, 216, 230, 0.548), rgba(0, 0, 255, 0.479));}
+    50% {color:rgb(122, 122, 122); background-image: linear-gradient(45deg, rgba(173, 216, 230, 0.87), rgba(0, 0, 255, 0.877));}
+    100% {color:black; background-image: linear-gradient(45deg, lightblue, blue);}
+}
+.resposta1{
+    padding:15px;
+    margin:20px;
+    border-radius:35px;
+    cursor:pointer;
+    width: 20vw;
+    text-align: center;
+    animation: colorblack linear 1.8s 0s 1 normal;
+    background-image: linear-gradient(45deg, lightblue, blue);
+}
+.resposta1:hover{
+    background-color:rgba(0, 140, 255, 0.699);
+}
+.next{
+    font-size: 30px;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.658);
+    border-radius:35px;
+    padding:13px;
+    color:white;
+    cursor:pointer;
+    display:none;
+}
+.res2{
+    display:none;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.res3{
+    display:none;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.res4{
+    display:none;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.res5{
+    display:none;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.res6{
+    display:none;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 40px;
+}
+.retornar{
+    font-size:35px;
+    padding:30px;
+    padding-left:45px;
+    padding-right:45px;
+    border-radius:20px;
+    margin-top:30px;
+    background-image: linear-gradient(45deg, green, lightgreen);
+    cursor: pointer;
+}

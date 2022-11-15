@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Song</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header>
+        <h1>Quiz Song</h1>
+    </header>
+    <h1 id="pontos"></h1>
+    <nav>
+        <h1 id="start" onclick="setTimeout(musica1, 500)">Start</h1>
+        <div class="container" id="container">
+            
+            <div class="res1" id="res1">
+                <h1 class="am1">Bruno Mars</h1>
+                <h2 class="resposta1" id="resposta1">Bruno Mars-When I Was Your Man</h2>
+                <h2 class="resposta1" id="resposta2">Bruno Mars-24K Magic</h2>
+                <h2 class="resposta1" id="resposta3">Bruno Mars-The Lazy Song</h2>
+                <h2 class="resposta1" id="resposta4">Bruno Mars-Just The Way You Are</h2>
+                <div class="next" id="next1" onclick="setTimeout(musica2, 500)">Next</div>
+                <audio id="bruno" src="Músicas/BrunoMars.mp3"></audio>
+            </div>
+            <div id="res2" class="res2">
+                <h1 class="am1">Fall Out Boy</h1>
+                <h2 class="resposta1" id="resposta5">Fall Out Boy-Centuries</h2>
+                <h2 class="resposta1" id="resposta6">Fall Out Boy-Immortals</h2>
+                <h2 class="resposta1" id="resposta7">Fall Out Boy-Dance Dance</h2>
+                <h2 class="resposta1" id="resposta8">Fall Out Boy-The Phoenix</h2>
+                <div class="next" id="next2" onclick="setTimeout(musica3, 500)">Next</div>
+                <audio id="fallout" src="Músicas/FallOutBoy.mp3"></audio>
+            </div>
+            <div class="res3" id="res3">
+                <h1 class="am1">Marshmello</h1>
+                <h2 class="resposta1" id="resposta9">Marshmello-Stars</h2>
+                <h2 class="resposta1" id="resposta10">Marshmello-Together</h2>
+                <h2 class="resposta1" id="resposta11">Marshmello-Find Me</h2>
+                <h2 class="resposta1" id="resposta12">Marshmello-Alone</h2>
+                <div class="next" id="next3" onclick="setTimeout(musica4, 500)">Next</div>
+                <audio id="marsh" src="Músicas/Marshmallo.mp3"></audio>
+            </div>
+            <div class="res4" id="res4">
+                <h1 class="am1">Marshmello</h1>
+                <h2 class="resposta1" id="resposta13">Linkin Park-Numb</h2>
+                <h2 class="resposta1" id="resposta14">Linkin Park-Crawling</h2>
+                <h2 class="resposta1" id="resposta15">Linkin Park-In The End</h2>
+                <h2 class="resposta1" id="resposta16">Linkin Park-New Divide</h2>
+                <div class="next" id="next4" onclick="setTimeout(musica5, 500)">Next</div>
+                <audio id="linkin" src="Músicas/LinkinPark.mp3"></audio>
+            </div>
+            <div class="res5" id="res5">
+                <h1 class="am1">50 Cent</h1>
+                <h2 class="resposta1" id="resposta17">50 Cent-Window Shopper</h2>
+                <h2 class="resposta1" id="resposta18">50 Cent-In Da Club</h2>
+                <h2 class="resposta1" id="resposta19">50 Cent-Many Men</h2>
+                <h2 class="resposta1" id="resposta20">50 Cent-21 Questions</h2>
+                <audio id="50cent" src="Músicas/50 Cent.mp3"></audio>
+                <div class="next" id="next5">Finish</div>
+            </div>
+            <div class="res6" id="res6">
+                <h1>Congratulations</h1>
+                <a href="http://127.0.0.1:5500/Quiz%20musica/index.html"><button id="retornar" class="retornar">Return</button></a>
+            </div>
+            
+        </div>
+    </nav>
+    
+
+
+    <script src="script.js"></script>
+</body>
+</html>
